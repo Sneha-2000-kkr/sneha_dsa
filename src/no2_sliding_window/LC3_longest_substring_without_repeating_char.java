@@ -1,6 +1,9 @@
 package no2_sliding_window;
 import java.util.LinkedHashSet;
 
+/*
+
+ */
 public class LC3_longest_substring_without_repeating_char {
 
     public int lengthOfLongestSubstring(String s) {
