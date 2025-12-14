@@ -1,4 +1,4 @@
-package no5_hashmap;
+package no5_hashmap.sub_patterns.frequency_map;
 
 
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 /*
 https://leetcode.com/problems/valid-anagram/description/
  */
-public class LC242_valid_anagram {
+public class OG_LC242_valid_anagram {
 
     public boolean isAnagram(String s, String t) {
         // if string len does not even match they can not be anagram
@@ -30,7 +30,7 @@ public class LC242_valid_anagram {
     }
 
     public static void main(String[] args) {
-        LC242_valid_anagram obj = new LC242_valid_anagram();
+        OG_LC242_valid_anagram obj = new OG_LC242_valid_anagram();
 //        test case 1
 //        String s = "anagram";
 //        String t = "nagaram";

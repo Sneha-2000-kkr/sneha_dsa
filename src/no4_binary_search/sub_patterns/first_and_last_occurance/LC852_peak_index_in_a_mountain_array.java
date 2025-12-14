@@ -1,4 +1,4 @@
-package no4_binary_search;
+package no4_binary_search.sub_patterns.first_and_last_occurance;
 
 /*
 https://leetcode.com/problems/peak-index-in-a-mountain-array/description/

@@ -1,4 +1,4 @@
-package no1_two_pointers;
+package no1_two_pointers.sub_patterns.opposite_ends;
 
 
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.Arrays;
 /*
 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 */
-public class LC167_two_sum_with_sorted_array {
+public class OG_LC167_two_sum_with_sorted_array {
     public int[] twoSum(int[] numbers, int target) {
         int left = 0;
         int right = numbers.length - 1;
@@ -26,7 +26,7 @@ public class LC167_two_sum_with_sorted_array {
     }
 
     public static void main(String[] args) {
-        LC167_two_sum_with_sorted_array obj = new LC167_two_sum_with_sorted_array();
+        OG_LC167_two_sum_with_sorted_array obj = new OG_LC167_two_sum_with_sorted_array();
 //        test case 1
 //        int[] inputArray = {2,7,11,15};
 //        int target = 9;

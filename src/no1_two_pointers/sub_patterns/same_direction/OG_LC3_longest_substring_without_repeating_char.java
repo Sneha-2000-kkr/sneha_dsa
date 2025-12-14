@@ -1,10 +1,10 @@
-package no2_sliding_window;
+package no1_two_pointers.sub_patterns.same_direction;
 import java.util.LinkedHashSet;
 
 /*
 
  */
-public class LC3_longest_substring_without_repeating_char {
+public class OG_LC3_longest_substring_without_repeating_char {
 
     public int lengthOfLongestSubstring(String s) {
         if (s == null || s.isEmpty()) return 0;
@@ -37,7 +37,7 @@ public class LC3_longest_substring_without_repeating_char {
     }
 
     public static void main(String[] args) {
-        LC3_longest_substring_without_repeating_char obj = new LC3_longest_substring_without_repeating_char();
+        OG_LC3_longest_substring_without_repeating_char obj = new OG_LC3_longest_substring_without_repeating_char();
         String input = "abcabcbb";
         int result = obj.lengthOfLongestSubstring(input);
         System.out.println("Input: \"" + input + "\" → Output: " + result);

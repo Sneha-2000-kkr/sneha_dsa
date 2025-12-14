@@ -1,11 +1,11 @@
-package no3_prefix_sum;
+package no3_prefix_sum.sub_patterns.prefix_and_count;
 
 import java.util.HashMap;
 
 /*
 https://leetcode.com/problems/subarray-sum-equals-k/description/
  */
-public class LC560_subarray_sum_equals_K {
+public class OG_LC560_subarray_sum_equals_K {
     public int subarraySum(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         map.put(0, 1); // empty prefix
@@ -22,7 +22,7 @@ public class LC560_subarray_sum_equals_K {
     }
 
     public static void main(String[] args) {
-        LC560_subarray_sum_equals_K obj = new LC560_subarray_sum_equals_K();
+        OG_LC560_subarray_sum_equals_K obj = new OG_LC560_subarray_sum_equals_K();
         int[] nums ={1,1,1};
         int k = 2;
 //        int[] nums = {1,2,3};

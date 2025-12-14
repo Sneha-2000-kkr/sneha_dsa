@@ -1,10 +1,10 @@
-package no6_greedy;
+package no9_greedy.sub_patterns.sort_and_pick;
 import java.util.Arrays;
 
 /*
 https://leetcode.com/problems/assign-cookies/description/
  */
-public class LC455_assign_cookies {
+public class OG_LC455_assign_cookies {
 
     /*
     this is a unworked method for example like:
@@ -54,7 +54,7 @@ public class LC455_assign_cookies {
         return count;
     }
     public static void main(String[] args) {
-        LC455_assign_cookies obj = new LC455_assign_cookies();
+        OG_LC455_assign_cookies obj = new OG_LC455_assign_cookies();
 //        int[] g = {1,2,3};
 //        int[] s = {1,1};
         int[] g = {1,2};

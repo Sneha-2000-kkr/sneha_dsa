@@ -1,11 +1,11 @@
-package no3_prefix_sum;
+package no3_prefix_sum.sub_patterns.prefix_and_modulo;
 
 import java.util.HashMap;
 
 /*
 
  */
-public class LC523_continuous_subarray_sum {
+public class OG_LC523_continuous_subarray_sum {
     public boolean checkSubarraySum(int[] nums, int k) {
         // maintain a hash map to store <sum % k, index>
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -30,7 +30,7 @@ public class LC523_continuous_subarray_sum {
     }
 
     public static void main(String[] args) {
-        LC523_continuous_subarray_sum obj = new LC523_continuous_subarray_sum();
+        OG_LC523_continuous_subarray_sum obj = new OG_LC523_continuous_subarray_sum();
         int[] nums = {23,2,4,6,7};
         int k = 6;
         System.out.println(obj.checkSubarraySum(nums,k));

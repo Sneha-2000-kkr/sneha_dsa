@@ -1,4 +1,4 @@
-package no6_greedy;
+package no9_greedy.sub_patterns.partition_labels;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,7 +7,7 @@ import java.util.List;
 /*
 https://leetcode.com/problems/partition-labels/description/
  */
-public class LC763_partition_labels {
+public class OG_LC763_partition_labels {
     public List<Integer> partitionLabels(String s) {
         HashMap<Character, Integer> last = new HashMap<>();
 
@@ -36,7 +36,7 @@ public class LC763_partition_labels {
     }
 
     public static void main(String[] args) {
-        LC763_partition_labels obj = new LC763_partition_labels();
+        OG_LC763_partition_labels obj = new OG_LC763_partition_labels();
         String s = "ababcbacadefegdehijhklij";
         System.out.println(obj.partitionLabels(s));
 

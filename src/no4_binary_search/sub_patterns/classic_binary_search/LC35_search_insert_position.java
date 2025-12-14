@@ -1,4 +1,4 @@
-package no4_binary_search;
+package no4_binary_search.sub_patterns.classic_binary_search;
 
 /*
 https://leetcode.com/problems/search-insert-position/description/
