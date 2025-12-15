@@ -3,6 +3,13 @@ package no2_sliding_window.sub_patterns.exactly_K;
 import java.util.HashMap;
 import java.util.HashSet;
 
+
+/*
+Sliding window directly “exactly K” ke liye kaam nahi karta
+Sliding window naturally “at most K” ya “at least K” type problems me strong hota hai
+Isliye hum indirect method use karte hain.
+
+ */
 public class OG_LC992_subarray_with_K_diff_ints {
 
     public int subarraysWithKDistinctBruteForce(int[] nums, int k) {
