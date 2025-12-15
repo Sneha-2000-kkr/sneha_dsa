@@ -1,10 +1,10 @@
-package no4_binary_search;
+package no4_binary_search.sub_patterns.first_and_last_occurance;
 import java.util.Arrays;
 
 /*
 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
  */
-public class LC34_find_first_and_last_position_of_element_in_sorted_array {
+public class OG_LC34_find_first_and_last_position_of_element_in_sorted_array {
     public int findLeft(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
@@ -53,7 +53,7 @@ public class LC34_find_first_and_last_position_of_element_in_sorted_array {
     }
 
     public static void main(String[] args) {
-        LC34_find_first_and_last_position_of_element_in_sorted_array obj = new LC34_find_first_and_last_position_of_element_in_sorted_array();
+        OG_LC34_find_first_and_last_position_of_element_in_sorted_array obj = new OG_LC34_find_first_and_last_position_of_element_in_sorted_array();
         int[] nums = {5,7,7,8,8,8,8,10};
         int target = 8;
         System.out.println(Arrays.toString(obj.searchRange(nums, target)));

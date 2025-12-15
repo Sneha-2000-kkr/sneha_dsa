@@ -1,4 +1,4 @@
-package no5_hashmap;
+package no5_hashmap.sub_patterns.index_map;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 /*
 https://leetcode.com/problems/two-sum/description/
  */
-public class LC1_two_sum {
+public class OG_LC1_two_sum {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> intMap = new HashMap<>();
         for(int i=0; i<nums.length; i++){
@@ -19,7 +19,7 @@ public class LC1_two_sum {
     }
 
     public static void main(String[] args) {
-        LC1_two_sum obj = new LC1_two_sum();
+        OG_LC1_two_sum obj = new OG_LC1_two_sum();
 //        int[] nums = {2,7,11,15};
 //        int target = 9;
         int[] nums = {3,2,4};

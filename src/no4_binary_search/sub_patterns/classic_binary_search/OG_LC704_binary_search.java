@@ -1,9 +1,9 @@
-package no4_binary_search;
+package no4_binary_search.sub_patterns.classic_binary_search;
 
 /*
 https://leetcode.com/problems/binary-search/description/
  */
-public class LC704_binary_search {
+public class OG_LC704_binary_search {
     public int search(int[] nums, int target) {
         int left = 0;
         int right = nums.length;
@@ -19,7 +19,7 @@ public class LC704_binary_search {
     }
 
     public static void main(String[] args) {
-        LC704_binary_search obj = new LC704_binary_search();
+        OG_LC704_binary_search obj = new OG_LC704_binary_search();
 //        int[] nums = {-1,0,3,5,9,12};
 //        int target = 9;
         int[] nums = {-1,0,3,5,9,12};
