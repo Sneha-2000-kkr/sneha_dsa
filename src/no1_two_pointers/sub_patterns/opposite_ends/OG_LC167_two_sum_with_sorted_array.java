@@ -1,6 +1,4 @@
 package no1_two_pointers.sub_patterns.opposite_ends;
-
-
 import java.util.Arrays;
 
 /*
