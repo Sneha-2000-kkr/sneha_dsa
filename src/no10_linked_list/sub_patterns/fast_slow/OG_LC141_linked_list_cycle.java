@@ -1,15 +1,7 @@
-package no1_two_pointers.sub_patterns.fast_slow;
+package no10_linked_list.sub_patterns.fast_slow;
 import java.util.HashSet;
+import no10_linked_list.sub_patterns.ListNode;
 
-class ListNode {
-      int val;
-     ListNode next;
-    ListNode(int x) {
-        val = x;
-         next = null;
-     }
-
- }
 public class OG_LC141_linked_list_cycle {
 
     // brute force way h, we are maintainning a hash set to see whether the node at head pointer was visited previously or not
